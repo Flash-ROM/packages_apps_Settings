@@ -20,6 +20,8 @@
     <string name="header_category_custom">ROM Control</string>
     <string name="flash_settings_title">Flash Settings</string>
     <string name="flash_settings_summary">Customize ROM features</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Control root access</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
