@@ -19,6 +19,7 @@
   <!-- Dashboard -->
     <string name="header_category_custom">ROM Control</string>
     <string name="flash_settings_title">Flash Settings</string>
+    <string name="supersu_title">SuperSU</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
