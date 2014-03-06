@@ -61,6 +61,8 @@
     <!-- UBER Compiler -->
     <string name="build_compiler_clang">Clang version</string>
     <string name="build_compiler_default">Unknown</string>
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">Processor</string>
 
 
 <!-- Display Settings -->
