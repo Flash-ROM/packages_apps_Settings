@@ -24,6 +24,8 @@
     <string name="substratum_summary">Theme your device</string>
     <string name="supersu_title">SuperSU</string>
     <string name="supersu_summary">Control root access</string>
+    <string name="superuser_title">Superuser</string>
+    <string name="superuser_summary">Control root access</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
