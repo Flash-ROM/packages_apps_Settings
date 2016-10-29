@@ -22,6 +22,8 @@
     <string name="substratum_title">Substratum</string>
     <string name="supersu_title">SuperSU</string>
     <string name="superuser_title">Superuser</string>
+    <!-- Navigation -->
+    <string name="navigation_category">Navigation</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->

@@ -131,6 +131,10 @@ import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 import com.flash.settings.FlashSettings;
+import com.flash.settings.fragments.FlingSettings;
+import com.flash.settings.fragments.NavbarSettings;
+import com.flash.settings.fragments.SmartbarSettings;
+import com.flash.settings.fragments.PulseSettings;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -358,9 +362,13 @@ public class SettingsActivity extends SettingsDrawerActivity
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
             FlashSettings.class.getName(),
-            AmbientSettings.class.getName()
-            DisplayRotation.class.getName()
-            ExpandedDesktopPreferenceFragment.class.getName()
+            AmbientSettings.class.getName(),
+            DisplayRotation.class.getName(),
+            ExpandedDesktopPreferenceFragment.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 
