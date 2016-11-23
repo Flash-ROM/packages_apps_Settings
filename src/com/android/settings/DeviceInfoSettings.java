@@ -132,7 +132,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
-        setValueSummary(KEY_BUILD_DATE, "ro.build.date");
         setValueSummary(KEY_ROM_VERSION, "ro.rom.version");
         findPreference(KEY_ROM_VERSION).setEnabled(true);
 
