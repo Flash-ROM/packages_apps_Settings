@@ -2715,8 +2715,8 @@
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.flash.settings.FlashSettings" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/flash_settings_summary" />
         </activity>
 
         <activity android:name="Settings$SubstratumActivity"
@@ -2736,8 +2736,8 @@
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.Substratum" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/substratum_summary" />
         </activity>
 
         <activity android:name="Settings$SuperUserActivity"
@@ -2757,8 +2757,8 @@
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperUser" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/root_summary" />
         </activity>
 
         <activity android:name="Settings$SuperSUActivity"
@@ -2778,8 +2778,8 @@
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperSU" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/root_summary" />
         </activity>
 
         <!-- Ambient Display settings activity. -->

@@ -19,9 +19,12 @@
   <!-- Dashboard -->
     <string name="header_category_custom">ROM Control</string>
     <string name="flash_settings_title">Flash Settings</string>
+    <string name="flash_settings_summary">Customize ROM features</string>
     <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Theme your device</string>
     <string name="supersu_title">SuperSU</string>
     <string name="superuser_title">Superuser</string>
+    <string name="root_summary">Manage root access</string>
     <!-- Navigation -->
     <string name="navigation_category">Navigation</string>
 
