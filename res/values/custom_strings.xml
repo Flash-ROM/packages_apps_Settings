@@ -53,8 +53,15 @@
     <string name="vendor_version_default">Unknown</string>
     <!-- Model Name -->
     <string name="model_name">Model name</string>
-   <!-- Phone info shortcut -->
+    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
+    <!-- UBER Compiler -->
+    <string name="build_compiler_gcc">GCC version</string>
+    <string name="build_compiler_default">Unknown</string>
+    <!-- UBER Compiler -->
+    <string name="build_compiler_clang">Clang version</string>
+    <string name="build_compiler_default">Unknown</string>
+
 
 <!-- Display Settings -->
     <!-- Expanded desktop -->
