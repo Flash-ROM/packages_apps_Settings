@@ -74,6 +74,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_VENDOR_VERSION = "vendor_version";
     private static final String KEY_MOD_BUILD_COMPILER_GCC = "build_compiler_gcc";
     private static final String KEY_MOD_BUILD_COMPILER_CLANG = "build_compiler_clang";
+    private static final String KEY_FLASH_HEADER = "flash_header";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -276,6 +277,13 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         } else if (prefKey.equals(KEY_KERNEL_VERSION)) {
             setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());
             return true;
+        } else if (preference.getKey().equals(KEY_FLASH_HEADER)) {
+            if (getPackageManager().queryIntentActivities(preference.getIntent(), 0).isEmpty()) {
+                // Don't send out the intent to stop crash
+                Log.w(LOG_TAG, "Stop click action on " + KEY_FLASH_HEADER + ": "
+                        + "queryIntentActivities() returns empty" );
+                return true;
+            }
         }
         return super.onPreferenceTreeClick(preference);
     }
