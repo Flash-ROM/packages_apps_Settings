@@ -29,6 +29,12 @@
     <string name="magisk_title">Magisk Manager</string>
     <string name="magisk_summary">Control modules and settings</string>
 
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Easier access</string>
+
+    <!-- Advanced settings (former: Developer options) -->
+    <string name="dev_advanced_settings_summary">For the experienced user</string>
+
 <!-- Navigation -->
     <string name="navigation_category">Navigation</string>
 
