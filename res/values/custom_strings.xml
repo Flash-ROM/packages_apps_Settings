@@ -26,6 +26,8 @@
     <string name="supersu_summary">Manage root access</string>
     <string name="superuser_title">Superuser</string>
     <string name="superuser_summary">Manage root access</string>
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Control modules and settings</string>
 
 <!-- Navigation -->
     <string name="navigation_category">Navigation</string>
