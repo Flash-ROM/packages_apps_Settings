@@ -2873,6 +2873,20 @@
                 android:value="true" />
         </activity>
 
+        <!-- Notification panel activity for OmniJaws -->
+        <activity android:name="Settings$NotificationDrawerSettingsActivity"
+                android:label="@string/notification_drawer_settings_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.flash.settings.fragments.NotificationDrawerSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/notification_drawer_settings_title" />
+        </activity>
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
