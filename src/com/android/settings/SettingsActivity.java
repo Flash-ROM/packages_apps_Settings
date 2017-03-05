@@ -142,6 +142,7 @@ import com.flash.settings.fragments.NavbarSettings;
 import com.flash.settings.fragments.SmartbarSettings;
 import com.flash.settings.fragments.PulseSettings;
 import com.flash.settings.fragments.HeadsUpSettings;
+import com.flash.settings.fragments.NotificationDrawerSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -387,6 +388,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             PulseSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             RunningServices.class.getName(),
+            NotificationDrawerSettings.class.getName(),
     };
 
 
